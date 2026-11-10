@@ -2,7 +2,7 @@
 const http = require('http');
 
 const PORT = 3000;
-const VERSION = '1.0';
+const VERSION = '2.0';
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {
